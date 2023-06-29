@@ -31,6 +31,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: relative;
 }
 
 .left {
@@ -49,11 +50,13 @@ main {
 h1 {
   font-size: 4rem;
   text-align: center;
-  position: absolute;
+  padding-top: 130px;
   width: 100%;
+  /* position: absolute;
   top: 52%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+
 }
 
 .number {
@@ -71,15 +74,17 @@ h1 {
 
 .between {
   font-size: 1.4rem;
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
+  text-align: center; 
+  padding-top: 25px;
+  /* position: absolute;
+  top: 22rem;
+    right: 33rem; */
 }
 
 .again {
   position: absolute;
-  top: 2rem;
-  left: 2rem;
+  bottom: 17rem;
+  right: 22rem;
 }
 
 .guess {
@@ -92,7 +97,7 @@ h1 {
   width: 25rem;
   text-align: center;
   display: block;
-  margin-bottom: 3rem;
+  margin-bottom: 4.5rem;
 }
 
 .btn {
@@ -110,8 +115,9 @@ h1 {
 }
 
 .message {
-  margin-bottom: 8rem;
+  margin-bottom: 1.5rem;
   height: 3rem;
+font-size: 17px;
 }
 
 .label-score {
