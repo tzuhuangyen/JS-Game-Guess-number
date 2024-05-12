@@ -1,4 +1,5 @@
 # JS-Game-Guess-number 猜數字遊戲
+(https://tzuhuangyen.github.io/JS-Game-Guess-number/)
 Javascript practice if else ,DOM 
 The code provided is written in JavaScript and 
 sets up a game where the user needs to guess a secret number between 1 and 20. 
